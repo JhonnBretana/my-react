@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SampleUpload from './Pages/SampleUpload';
+import LoginPage from './Pages/LoginPage';
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
     <Router>
       
         <Routes>
-          <Route path="/" element={<SampleUpload/>} />
-        
+          <Route path="/" element={<LoginPage/>} />
+
         </Routes>
       
     </Router>
