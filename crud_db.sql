@@ -1,4 +1,4 @@
-CREATE DATABASE crud_db;
+-- CREATE DATABASE crud_db;
 USE crud_db;
 
 CREATE TABLE users (
