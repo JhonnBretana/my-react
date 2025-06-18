@@ -11,7 +11,7 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '', // default for Laragon
-  database: 'sample_crud'
+  database: 'crud_db'
 });
 
 db.connect(err => {
